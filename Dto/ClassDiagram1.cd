@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Dto.CityDto" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAQAAAAAAAAAAIAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>CityDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dto.Class1" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Class1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dto.ConstraintsforeigenworkerDto" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAACAAAAAQAAAAAAAgAAYAAAAAEAABEAAAEBAAAE=</HashCode>
+      <FileName>ConstraintsforeigenworkerDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dto.ConstraintsoldDto" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAABAAAAgAAJAkAAAAAAAAgAAABAgAE=</HashCode>
+      <FileName>ConstraintsoldDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dto.Days_of_old2Dto" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIQAAAhAAQAABgBAAAAAIAgAAEAAAIABACAAAAAA=</HashCode>
+      <FileName>Days_of_old2Dto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dto.Days_of_oldDto" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAQAABgAAAAAAIAAAAAAAAIAAACAQAAAA=</HashCode>
+      <FileName>Days_of_oldDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dto.Days_of_wor2Dto" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACIAEAAhAAQAAAABAAAAAIAgAAEAgAAABASAAAAAA=</HashCode>
+      <FileName>Days_of_wor2Dto.cs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dto.Days_of_worDto" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAEAAAAAQAAAAAAAAAAIAAAAAAgAAAAASAAEAAA=</HashCode>
+      <FileName>Days_of_worDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dto.Foreign_workerDto" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAQAAAAAIAAAAIAAAIAAAAAAAAQABAAAA=</HashCode>
+      <FileName>Foreign_workerDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dto.OldDto" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAQAUAABgAAAAAAIAAAAAAAAAAAAAABAAQA=</HashCode>
+      <FileName>OldDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dto.PlacementDto" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAQAAAggAAAAAIgCgAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>PlacementDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dto.UserDto" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>UserDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

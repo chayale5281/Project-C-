@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="731623827ae3427e96b0877621276440" Name="Diagram1">
+        <EntityTypeShape EntityType="dbModel.city" Width="1.5" PointX="0.75" PointY="14.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbModel.Constraintsforeigenworker" Width="1.5" PointX="3" PointY="11.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbModel.Constraintsforeigenworkerne" Width="1.5" PointX="7.5" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbModel.Constraintsold" Width="1.5" PointX="3" PointY="15.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbModel.day_of_wor1" Width="1.5" PointX="7.5" PointY="24.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbModel.days_of_old" Width="1.5" PointX="8.25" PointY="16.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbModel.days_of_old2" Width="1.5" PointX="5.25" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbModel.days_of_wor" Width="1.5" PointX="5.25" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbModel.days_of_wor2" Width="1.5" PointX="8.25" PointY="11.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbModel.Foreign_worker" Width="1.5" PointX="5.25" PointY="16.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbModel.old" Width="1.5" PointX="8.25" PointY="20.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbModel.Placement" Width="1.5" PointX="10.5" PointY="18.5" IsExpanded="true" />
+        <AssociationConnector Association="dbModel.FK__Constrain__idcit__25869641" ManuallyRouted="false" />
+        <AssociationConnector Association="dbModel.FK__Constrain__idcit__31EC6D26" ManuallyRouted="false" />
+        <AssociationConnector Association="dbModel.FK__Foreign_w__idcit__70DDC3D8" ManuallyRouted="false" />
+        <AssociationConnector Association="dbModel.FK__old__idcity__787EE5A0" ManuallyRouted="false" />
+        <AssociationConnector Association="dbModel.FK__days_of_w__confi__571DF1D5" ManuallyRouted="false" />
+        <AssociationConnector Association="dbModel.FK__days_of_w__confi__5AEE82B9" ManuallyRouted="false" />
+        <AssociationConnector Association="dbModel.FK__Foreign_w__confi__6FE99F9F" ManuallyRouted="false" />
+        <AssociationConnector Association="dbModel.FK__Constrain__idday__5DCAEF64" ManuallyRouted="false" />
+        <AssociationConnector Association="dbModel.FK__days_of_o__conoI__4222D4EF" ManuallyRouted="false" />
+        <AssociationConnector Association="dbModel.FK__days_of_o__conoI__46E78A0C" ManuallyRouted="false" />
+        <AssociationConnector Association="dbModel.FK__old__conoID__778AC167" ManuallyRouted="false" />
+        <AssociationConnector Association="dbModel.FK__day_of_wo__idwor__72C60C4A" ManuallyRouted="false" />
+        <AssociationConnector Association="dbModel.FK__days_of_o__idold__797309D9" ManuallyRouted="false" />
+        <AssociationConnector Association="dbModel.FK__days_of_o__idold__7A672E12" ManuallyRouted="false" />
+        <AssociationConnector Association="dbModel.FK__days_of_w__idwor__73BA3083" ManuallyRouted="false" />
+        <AssociationConnector Association="dbModel.FK__days_of_w__idwor__74AE54BC" ManuallyRouted="false" />
+        <AssociationConnector Association="dbModel.FK__Placement__idwor__71D1E811" ManuallyRouted="false" />
+        <AssociationConnector Association="dbModel.FK__Placement__idold__7B5B524B" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

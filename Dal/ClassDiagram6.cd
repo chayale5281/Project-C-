@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Dal.Class1" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Class1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dal.dbEntities" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAQAAAAAAABAAABIACAgCEAAAAAAAAAIAAAACAAA=</HashCode>
+      <FileName>Model1.Context.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dal.city" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAQAAABAAAAIAAAAAAAAAAAAAAAAAAABCAAA=</HashCode>
+      <FileName>city.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dal.Constraintsforeigenworker" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAGAACAAAAAAAAAAAAAiAAQAAAAAEAABEIAAEBAAAE=</HashCode>
+      <FileName>Constraintsforeigenworker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dal.Constraintsforeigenworkerne" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAIACAAAAAA=</HashCode>
+      <FileName>Constraintsforeigenworkerne.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dal.Constraintsold" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAQAABAAAAiAABAkAAAAAAAAgAAABCgAE=</HashCode>
+      <FileName>Constraintsold.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dal.day_of_wor1" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAEAAAAAAAAAAAAAAAAAAAAAAAgAAAAASAAEAAA=</HashCode>
+      <FileName>day_of_wor1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dal.days_of_old" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAABABgAAAAAAAAAAAAAAAIABACAQCAAA=</HashCode>
+      <FileName>days_of_old.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dal.days_of_old2" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIQAAAhAAABABgBAAAAAAAgAAEAAAIABACAACAAA=</HashCode>
+      <FileName>days_of_old2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dal.days_of_wor" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAGAAEAAAAAAAAAAAIAAAACAAAAAAgAAABASAAEAAA=</HashCode>
+      <FileName>days_of_wor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dal.days_of_wor2" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAGIAEAAhAAAAAAABIAAAAAAgAAEAgAAABASAAAAAA=</HashCode>
+      <FileName>days_of_wor2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dal.Foreign_worker" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAQAABIACAgAAAAIAAAAAAIAQABAAAA=</HashCode>
+      <FileName>Foreign_worker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dal.old" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAEAQAEBQBgAAACAgAAAAAAAAAAAAAAABAAQA=</HashCode>
+      <FileName>old.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dal.Placement" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAEAAAAAggAAAAAAgCgAAAAAAAIAQAACAAA=</HashCode>
+      <FileName>Placement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

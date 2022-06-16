@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="dbModelStoreContainer" CdmEntityContainer="dbEntities">
+    <EntitySetMapping Name="city">
+      <EntityTypeMapping TypeName="dbModel.city">
+        <MappingFragment StoreEntitySet="city">
+          <ScalarProperty Name="idcity" ColumnName="idcity" />
+          <ScalarProperty Name="namecity" ColumnName="namecity" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Constraintsforeigenworker">
+      <EntityTypeMapping TypeName="dbModel.Constraintsforeigenworker">
+        <MappingFragment StoreEntitySet="Constraintsforeigenworker">
+          <ScalarProperty Name="confid" ColumnName="confid" />
+          <ScalarProperty Name="age_of_o" ColumnName="age_of_o" />
+          <ScalarProperty Name="languagefw" ColumnName="languagefw" />
+          <ScalarProperty Name="gender" ColumnName="gender" />
+          <ScalarProperty Name="idcity" ColumnName="idcity" />
+          <ScalarProperty Name="addressfg" ColumnName="addressfg" />
+          <ScalarProperty Name="Level_of_functioningfg" ColumnName="Level_of_functioningfg" />
+          <ScalarProperty Name="money_of_hour" ColumnName="money_of_hour" />
+          <ScalarProperty Name="passwardwor" ColumnName="passwardwor" />
+          <ScalarProperty Name="mail" ColumnName="mail" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Constraintsforeigenworkerne">
+      <EntityTypeMapping TypeName="dbModel.Constraintsforeigenworkerne">
+        <MappingFragment StoreEntitySet="Constraintsforeigenworkerne">
+          <ScalarProperty Name="confidd" ColumnName="confidd" />
+          <ScalarProperty Name="iddayw" ColumnName="iddayw" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Constraintsold">
+      <EntityTypeMapping TypeName="dbModel.Constraintsold">
+        <MappingFragment StoreEntitySet="Constraintsold">
+          <ScalarProperty Name="conoID" ColumnName="conoID" />
+          <ScalarProperty Name="age" ColumnName="age" />
+          <ScalarProperty Name="Level_of_functioningo" ColumnName="Level_of_functioningo" />
+          <ScalarProperty Name="gender" ColumnName="gender" />
+          <ScalarProperty Name="idcity" ColumnName="idcity" />
+          <ScalarProperty Name="addressold" ColumnName="addressold" />
+          <ScalarProperty Name="languageold" ColumnName="languageold" />
+          <ScalarProperty Name="hanacha_and_money_for_hour" ColumnName="hanacha_and_money_for_hour" />
+          <ScalarProperty Name="passwardold" ColumnName="passwardold" />
+          <ScalarProperty Name="mail" ColumnName="mail" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="day_of_wor1">
+      <EntityTypeMapping TypeName="dbModel.day_of_wor1">
+        <MappingFragment StoreEntitySet="day_of_wor1">
+          <ScalarProperty Name="iddayw" ColumnName="iddayw" />
+          <ScalarProperty Name="idwor" ColumnName="idwor" />
+          <ScalarProperty Name="dayw" ColumnName="dayw" />
+          <ScalarProperty Name="hourstartw" ColumnName="hourstartw" />
+          <ScalarProperty Name="hourendw" ColumnName="hourendw" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="days_of_old">
+      <EntityTypeMapping TypeName="dbModel.days_of_old">
+        <MappingFragment StoreEntitySet="days_of_old">
+          <ScalarProperty Name="iddayo" ColumnName="iddayo" />
+          <ScalarProperty Name="idold" ColumnName="idold" />
+          <ScalarProperty Name="dayo" ColumnName="dayo" />
+          <ScalarProperty Name="hourstarto" ColumnName="hourstarto" />
+          <ScalarProperty Name="hourendo" ColumnName="hourendo" />
+          <ScalarProperty Name="conoID" ColumnName="conoID" />
+          <ScalarProperty Name="isavliable" ColumnName="isavliable" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="days_of_old2">
+      <EntityTypeMapping TypeName="dbModel.days_of_old2">
+        <MappingFragment StoreEntitySet="days_of_old2">
+          <ScalarProperty Name="iddayo" ColumnName="iddayo" />
+          <ScalarProperty Name="idold" ColumnName="idold" />
+          <ScalarProperty Name="isSunday" ColumnName="isSunday" />
+          <ScalarProperty Name="isManday" ColumnName="isManday" />
+          <ScalarProperty Name="isTuthday" ColumnName="isTuthday" />
+          <ScalarProperty Name="isWenthday" ColumnName="isWenthday" />
+          <ScalarProperty Name="isThursday" ColumnName="isThursday" />
+          <ScalarProperty Name="isFriday" ColumnName="isFriday" />
+          <ScalarProperty Name="isShabbat" ColumnName="isShabbat" />
+          <ScalarProperty Name="hourstarto" ColumnName="hourstarto" />
+          <ScalarProperty Name="hourendo" ColumnName="hourendo" />
+          <ScalarProperty Name="conoID" ColumnName="conoID" />
+          <ScalarProperty Name="isavliable" ColumnName="isavliable" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="days_of_wor">
+      <EntityTypeMapping TypeName="dbModel.days_of_wor">
+        <MappingFragment StoreEntitySet="days_of_wor">
+          <ScalarProperty Name="iddayw" ColumnName="iddayw" />
+          <ScalarProperty Name="idwor" ColumnName="idwor" />
+          <ScalarProperty Name="dayw" ColumnName="dayw" />
+          <ScalarProperty Name="hourstartw" ColumnName="hourstartw" />
+          <ScalarProperty Name="hourendw" ColumnName="hourendw" />
+          <ScalarProperty Name="confid" ColumnName="confid" />
+          <ScalarProperty Name="isavliable" ColumnName="isavliable" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="days_of_wor2">
+      <EntityTypeMapping TypeName="dbModel.days_of_wor2">
+        <MappingFragment StoreEntitySet="days_of_wor2">
+          <ScalarProperty Name="iddayw" ColumnName="iddayw" />
+          <ScalarProperty Name="idwor" ColumnName="idwor" />
+          <ScalarProperty Name="isSunday" ColumnName="isSunday" />
+          <ScalarProperty Name="isManday" ColumnName="isManday" />
+          <ScalarProperty Name="isTuthday" ColumnName="isTuthday" />
+          <ScalarProperty Name="isWenthday" ColumnName="isWenthday" />
+          <ScalarProperty Name="isThursday" ColumnName="isThursday" />
+          <ScalarProperty Name="isFriday" ColumnName="isFriday" />
+          <ScalarProperty Name="isShabbat" ColumnName="isShabbat" />
+          <ScalarProperty Name="hourstartw" ColumnName="hourstartw" />
+          <ScalarProperty Name="hourendw" ColumnName="hourendw" />
+          <ScalarProperty Name="confid" ColumnName="confid" />
+          <ScalarProperty Name="isavliable" ColumnName="isavliable" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Foreign_worker">
+      <EntityTypeMapping TypeName="dbModel.Foreign_worker">
+        <MappingFragment StoreEntitySet="Foreign_worker">
+          <ScalarProperty Name="idwor" ColumnName="idwor" />
+          <ScalarProperty Name="lnwor" ColumnName="lnwor" />
+          <ScalarProperty Name="fnwor" ColumnName="fnwor" />
+          <ScalarProperty Name="idcity" ColumnName="idcity" />
+          <ScalarProperty Name="confid" ColumnName="confid" />
+          <ScalarProperty Name="ischeck" ColumnName="ischeck" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="old">
+      <EntityTypeMapping TypeName="dbModel.old">
+        <MappingFragment StoreEntitySet="old">
+          <ScalarProperty Name="idold" ColumnName="idold" />
+          <ScalarProperty Name="fnameold" ColumnName="fnameold" />
+          <ScalarProperty Name="lnameold" ColumnName="lnameold" />
+          <ScalarProperty Name="idcity" ColumnName="idcity" />
+          <ScalarProperty Name="nomhomeold" ColumnName="nomhomeold" />
+          <ScalarProperty Name="nationold" ColumnName="nationold" />
+          <ScalarProperty Name="conoID" ColumnName="conoID" />
+          <ScalarProperty Name="ischeck" ColumnName="ischeck" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Placement">
+      <EntityTypeMapping TypeName="dbModel.Placement">
+        <MappingFragment StoreEntitySet="Placement">
+          <ScalarProperty Name="idPlacement" ColumnName="idPlacement" />
+          <ScalarProperty Name="idold" ColumnName="idold" />
+          <ScalarProperty Name="idwor" ColumnName="idwor" />
+          <ScalarProperty Name="Start_Datep" ColumnName="Start_Datep" />
+          <ScalarProperty Name="end_Datep" ColumnName="end_Datep" />
+          <ScalarProperty Name="nameold" ColumnName="nameold" />
+          <ScalarProperty Name="namewor" ColumnName="namewor" />
+          <ScalarProperty Name="dayes" ColumnName="dayes" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

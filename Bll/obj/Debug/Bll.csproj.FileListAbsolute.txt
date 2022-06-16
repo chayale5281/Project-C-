@@ -1,0 +1,48 @@
+C:\Users\safrai\Desktop\לימודים שרי\שנה ב\פרויקט גמר\webapli\full_project\Bll\bin\Debug\Bll.dll
+C:\Users\safrai\Desktop\לימודים שרי\שנה ב\פרויקט גמר\webapli\full_project\Bll\bin\Debug\Bll.pdb
+C:\Users\safrai\Desktop\לימודים שרי\שנה ב\פרויקט גמר\webapli\full_project\Bll\bin\Debug\Dal.dll
+C:\Users\safrai\Desktop\לימודים שרי\שנה ב\פרויקט גמר\webapli\full_project\Bll\bin\Debug\Dto.dll
+C:\Users\safrai\Desktop\לימודים שרי\שנה ב\פרויקט גמר\webapli\full_project\Bll\bin\Debug\EntityFramework.dll
+C:\Users\safrai\Desktop\לימודים שרי\שנה ב\פרויקט גמר\webapli\full_project\Bll\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\safrai\Desktop\לימודים שרי\שנה ב\פרויקט גמר\webapli\full_project\Bll\bin\Debug\AutoMapper.dll
+C:\Users\safrai\Desktop\לימודים שרי\שנה ב\פרויקט גמר\webapli\full_project\Bll\bin\Debug\Dal.pdb
+C:\Users\safrai\Desktop\לימודים שרי\שנה ב\פרויקט גמר\webapli\full_project\Bll\bin\Debug\Dal.dll.config
+C:\Users\safrai\Desktop\לימודים שרי\שנה ב\פרויקט גמר\webapli\full_project\Bll\bin\Debug\Dto.pdb
+C:\Users\safrai\Desktop\לימודים שרי\שנה ב\פרויקט גמר\webapli\full_project\Bll\obj\Debug\Bll.csprojAssemblyReference.cache
+C:\Users\safrai\Desktop\לימודים שרי\שנה ב\פרויקט גמר\webapli\full_project\Bll\obj\Debug\Bll.csproj.CoreCompileInputs.cache
+C:\Users\safrai\Desktop\לימודים שרי\שנה ב\פרויקט גמר\webapli\full_project\Bll\obj\Debug\Bll.csproj.CopyComplete
+C:\Users\safrai\Desktop\לימודים שרי\שנה ב\פרויקט גמר\webapli\full_project\Bll\obj\Debug\Bll.dll
+C:\Users\safrai\Desktop\לימודים שרי\שנה ב\פרויקט גמר\webapli\full_project\Bll\obj\Debug\Bll.pdb
+C:\Users\safrai\Desktop\לימודים שרי\שנה ב\פרויקט גמר\webapli\full_project\Bll\bin\Debug\Dto.dll.config
+C:\Users\1\Downloads\‏‏full_project - עותק\Bll\bin\Debug\Bll.dll
+C:\Users\1\Downloads\‏‏full_project - עותק\Bll\bin\Debug\Bll.pdb
+C:\Users\1\Downloads\‏‏full_project - עותק\Bll\bin\Debug\Dal.dll
+C:\Users\1\Downloads\‏‏full_project - עותק\Bll\bin\Debug\Dto.dll
+C:\Users\1\Downloads\‏‏full_project - עותק\Bll\bin\Debug\EntityFramework.dll
+C:\Users\1\Downloads\‏‏full_project - עותק\Bll\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\1\Downloads\‏‏full_project - עותק\Bll\bin\Debug\AutoMapper.dll
+C:\Users\1\Downloads\‏‏full_project - עותק\Bll\bin\Debug\Dal.pdb
+C:\Users\1\Downloads\‏‏full_project - עותק\Bll\bin\Debug\Dal.dll.config
+C:\Users\1\Downloads\‏‏full_project - עותק\Bll\bin\Debug\Dto.pdb
+C:\Users\1\Downloads\‏‏full_project - עותק\Bll\bin\Debug\Dto.dll.config
+C:\Users\1\Downloads\‏‏full_project - עותק\Bll\obj\Debug\Bll.csprojAssemblyReference.cache
+C:\Users\1\Downloads\‏‏full_project - עותק\Bll\obj\Debug\Bll.csproj.CoreCompileInputs.cache
+C:\Users\1\Downloads\‏‏full_project - עותק\Bll\obj\Debug\Bll.csproj.CopyComplete
+C:\Users\1\Downloads\‏‏full_project - עותק\Bll\obj\Debug\Bll.dll
+C:\Users\1\Downloads\‏‏full_project - עותק\Bll\obj\Debug\Bll.pdb
+C:\Users\1\Desktop\תיקיות\פרויקט גמר\‏‏full_project - עותק\Bll\bin\Debug\Bll.dll
+C:\Users\1\Desktop\תיקיות\פרויקט גמר\‏‏full_project - עותק\Bll\bin\Debug\Bll.pdb
+C:\Users\1\Desktop\תיקיות\פרויקט גמר\‏‏full_project - עותק\Bll\bin\Debug\Dal.dll
+C:\Users\1\Desktop\תיקיות\פרויקט גמר\‏‏full_project - עותק\Bll\bin\Debug\Dto.dll
+C:\Users\1\Desktop\תיקיות\פרויקט גמר\‏‏full_project - עותק\Bll\bin\Debug\EntityFramework.dll
+C:\Users\1\Desktop\תיקיות\פרויקט גמר\‏‏full_project - עותק\Bll\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\1\Desktop\תיקיות\פרויקט גמר\‏‏full_project - עותק\Bll\bin\Debug\AutoMapper.dll
+C:\Users\1\Desktop\תיקיות\פרויקט גמר\‏‏full_project - עותק\Bll\bin\Debug\Dal.pdb
+C:\Users\1\Desktop\תיקיות\פרויקט גמר\‏‏full_project - עותק\Bll\bin\Debug\Dal.dll.config
+C:\Users\1\Desktop\תיקיות\פרויקט גמר\‏‏full_project - עותק\Bll\bin\Debug\Dto.pdb
+C:\Users\1\Desktop\תיקיות\פרויקט גמר\‏‏full_project - עותק\Bll\bin\Debug\Dto.dll.config
+C:\Users\1\Desktop\תיקיות\פרויקט גמר\‏‏full_project - עותק\Bll\obj\Debug\Bll.csprojAssemblyReference.cache
+C:\Users\1\Desktop\תיקיות\פרויקט גמר\‏‏full_project - עותק\Bll\obj\Debug\Bll.csproj.CoreCompileInputs.cache
+C:\Users\1\Desktop\תיקיות\פרויקט גמר\‏‏full_project - עותק\Bll\obj\Debug\Bll.csproj.CopyComplete
+C:\Users\1\Desktop\תיקיות\פרויקט גמר\‏‏full_project - עותק\Bll\obj\Debug\Bll.dll
+C:\Users\1\Desktop\תיקיות\פרויקט גמר\‏‏full_project - עותק\Bll\obj\Debug\Bll.pdb

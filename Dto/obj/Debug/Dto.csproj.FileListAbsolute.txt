@@ -1,0 +1,48 @@
+C:\Users\safrai\Desktop\לימודים שרי\שנה ב\פרויקט גמר\webapli\full_project\Dto\bin\Debug\Dto.dll
+C:\Users\safrai\Desktop\לימודים שרי\שנה ב\פרויקט גמר\webapli\full_project\Dto\bin\Debug\Dto.pdb
+C:\Users\safrai\Desktop\לימודים שרי\שנה ב\פרויקט גמר\webapli\full_project\Dto\obj\Debug\Dto.csprojAssemblyReference.cache
+C:\Users\safrai\Desktop\לימודים שרי\שנה ב\פרויקט גמר\webapli\full_project\Dto\obj\Debug\Dto.csproj.CoreCompileInputs.cache
+C:\Users\safrai\Desktop\לימודים שרי\שנה ב\פרויקט גמר\webapli\full_project\Dto\obj\Debug\Dto.dll
+C:\Users\safrai\Desktop\לימודים שרי\שנה ב\פרויקט גמר\webapli\full_project\Dto\obj\Debug\Dto.pdb
+C:\Users\safrai\Desktop\לימודים שרי\שנה ב\פרויקט גמר\webapli\full_project\Dto\bin\Debug\AutoMapper.dll
+C:\Users\safrai\Desktop\לימודים שרי\שנה ב\פרויקט גמר\webapli\full_project\Dto\bin\Debug\Dal.dll
+C:\Users\safrai\Desktop\לימודים שרי\שנה ב\פרויקט גמר\webapli\full_project\Dto\bin\Debug\EntityFramework.dll
+C:\Users\safrai\Desktop\לימודים שרי\שנה ב\פרויקט גמר\webapli\full_project\Dto\bin\Debug\Dal.pdb
+C:\Users\safrai\Desktop\לימודים שרי\שנה ב\פרויקט גמר\webapli\full_project\Dto\bin\Debug\Dal.dll.config
+C:\Users\safrai\Desktop\לימודים שרי\שנה ב\פרויקט גמר\webapli\full_project\Dto\bin\Debug\EntityFramework.xml
+C:\Users\safrai\Desktop\לימודים שרי\שנה ב\פרויקט גמר\webapli\full_project\Dto\obj\Debug\Dto.csproj.CopyComplete
+C:\Users\safrai\Desktop\לימודים שרי\שנה ב\פרויקט גמר\webapli\full_project\Dto\bin\Debug\Dto.dll.config
+C:\Users\safrai\Desktop\לימודים שרי\שנה ב\פרויקט גמר\webapli\full_project\Dto\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\safrai\Desktop\לימודים שרי\שנה ב\פרויקט גמר\webapli\full_project\Dto\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\1\Downloads\‏‏full_project - עותק\Dto\bin\Debug\Dto.dll.config
+C:\Users\1\Downloads\‏‏full_project - עותק\Dto\bin\Debug\Dto.dll
+C:\Users\1\Downloads\‏‏full_project - עותק\Dto\bin\Debug\Dto.pdb
+C:\Users\1\Downloads\‏‏full_project - עותק\Dto\bin\Debug\AutoMapper.dll
+C:\Users\1\Downloads\‏‏full_project - עותק\Dto\bin\Debug\Dal.dll
+C:\Users\1\Downloads\‏‏full_project - עותק\Dto\bin\Debug\EntityFramework.dll
+C:\Users\1\Downloads\‏‏full_project - עותק\Dto\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\1\Downloads\‏‏full_project - עותק\Dto\bin\Debug\Dal.pdb
+C:\Users\1\Downloads\‏‏full_project - עותק\Dto\bin\Debug\Dal.dll.config
+C:\Users\1\Downloads\‏‏full_project - עותק\Dto\bin\Debug\EntityFramework.xml
+C:\Users\1\Downloads\‏‏full_project - עותק\Dto\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\1\Downloads\‏‏full_project - עותק\Dto\obj\Debug\Dto.csprojAssemblyReference.cache
+C:\Users\1\Downloads\‏‏full_project - עותק\Dto\obj\Debug\Dto.csproj.CoreCompileInputs.cache
+C:\Users\1\Downloads\‏‏full_project - עותק\Dto\obj\Debug\Dto.csproj.CopyComplete
+C:\Users\1\Downloads\‏‏full_project - עותק\Dto\obj\Debug\Dto.dll
+C:\Users\1\Downloads\‏‏full_project - עותק\Dto\obj\Debug\Dto.pdb
+C:\Users\1\Desktop\תיקיות\פרויקט גמר\‏‏full_project - עותק\Dto\bin\Debug\Dto.dll.config
+C:\Users\1\Desktop\תיקיות\פרויקט גמר\‏‏full_project - עותק\Dto\bin\Debug\Dto.dll
+C:\Users\1\Desktop\תיקיות\פרויקט גמר\‏‏full_project - עותק\Dto\bin\Debug\Dto.pdb
+C:\Users\1\Desktop\תיקיות\פרויקט גמר\‏‏full_project - עותק\Dto\bin\Debug\AutoMapper.dll
+C:\Users\1\Desktop\תיקיות\פרויקט גמר\‏‏full_project - עותק\Dto\bin\Debug\Dal.dll
+C:\Users\1\Desktop\תיקיות\פרויקט גמר\‏‏full_project - עותק\Dto\bin\Debug\EntityFramework.dll
+C:\Users\1\Desktop\תיקיות\פרויקט גמר\‏‏full_project - עותק\Dto\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\1\Desktop\תיקיות\פרויקט גמר\‏‏full_project - עותק\Dto\bin\Debug\Dal.pdb
+C:\Users\1\Desktop\תיקיות\פרויקט גמר\‏‏full_project - עותק\Dto\bin\Debug\Dal.dll.config
+C:\Users\1\Desktop\תיקיות\פרויקט גמר\‏‏full_project - עותק\Dto\bin\Debug\EntityFramework.xml
+C:\Users\1\Desktop\תיקיות\פרויקט גמר\‏‏full_project - עותק\Dto\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\1\Desktop\תיקיות\פרויקט גמר\‏‏full_project - עותק\Dto\obj\Debug\Dto.csprojAssemblyReference.cache
+C:\Users\1\Desktop\תיקיות\פרויקט גמר\‏‏full_project - עותק\Dto\obj\Debug\Dto.csproj.CoreCompileInputs.cache
+C:\Users\1\Desktop\תיקיות\פרויקט גמר\‏‏full_project - עותק\Dto\obj\Debug\Dto.csproj.CopyComplete
+C:\Users\1\Desktop\תיקיות\פרויקט גמר\‏‏full_project - עותק\Dto\obj\Debug\Dto.dll
+C:\Users\1\Desktop\תיקיות\פרויקט גמר\‏‏full_project - עותק\Dto\obj\Debug\Dto.pdb

@@ -1,0 +1,466 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="dbModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="city">
+    <Key>
+      <PropertyRef Name="idcity" />
+    </Key>
+    <Property Name="idcity" Type="int" Nullable="false" />
+    <Property Name="namecity" Type="nvarchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="Constraintsforeigenworker">
+    <Key>
+      <PropertyRef Name="confid" />
+    </Key>
+    <Property Name="confid" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="age_of_o" Type="float" />
+    <Property Name="languagefw" Type="nvarchar" MaxLength="255" />
+    <Property Name="gender" Type="nvarchar" MaxLength="255" />
+    <Property Name="idcity" Type="int" Nullable="false" />
+    <Property Name="addressfg" Type="varchar" MaxLength="30" />
+    <Property Name="Level_of_functioningfg" Type="int" />
+    <Property Name="money_of_hour" Type="float" />
+    <Property Name="passwardwor" Type="bigint" />
+    <Property Name="mail" Type="varchar" MaxLength="30" />
+  </EntityType>
+  <EntityType Name="Constraintsforeigenworkerne">
+    <Key>
+      <PropertyRef Name="confidd" />
+    </Key>
+    <Property Name="confidd" Type="int" Nullable="false" />
+    <Property Name="iddayw" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Constraintsold">
+    <Key>
+      <PropertyRef Name="conoID" />
+    </Key>
+    <Property Name="conoID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="age" Type="float" />
+    <Property Name="Level_of_functioningo" Type="int" />
+    <Property Name="gender" Type="nvarchar" MaxLength="255" />
+    <Property Name="idcity" Type="int" Nullable="false" />
+    <Property Name="addressold" Type="varchar" MaxLength="30" />
+    <Property Name="languageold" Type="nvarchar" MaxLength="255" />
+    <Property Name="hanacha_and_money_for_hour" Type="float" />
+    <Property Name="passwardold" Type="bigint" />
+    <Property Name="mail" Type="varchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="day_of_wor1">
+    <Key>
+      <PropertyRef Name="iddayw" />
+    </Key>
+    <Property Name="iddayw" Type="int" Nullable="false" />
+    <Property Name="idwor" Type="int" />
+    <Property Name="dayw" Type="nvarchar" MaxLength="255" />
+    <Property Name="hourstartw" Type="int" />
+    <Property Name="hourendw" Type="int" />
+  </EntityType>
+  <EntityType Name="days_of_old">
+    <Key>
+      <PropertyRef Name="iddayo" />
+    </Key>
+    <Property Name="iddayo" Type="int" Nullable="false" />
+    <Property Name="idold" Type="int" Nullable="false" />
+    <Property Name="dayo" Type="nvarchar" MaxLength="255" />
+    <Property Name="hourstarto" Type="int" />
+    <Property Name="hourendo" Type="int" />
+    <Property Name="conoID" Type="int" />
+    <Property Name="isavliable" Type="bit" />
+  </EntityType>
+  <EntityType Name="days_of_old2">
+    <Key>
+      <PropertyRef Name="iddayo" />
+    </Key>
+    <Property Name="iddayo" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="idold" Type="int" />
+    <Property Name="isSunday" Type="bit" />
+    <Property Name="isManday" Type="bit" />
+    <Property Name="isTuthday" Type="bit" />
+    <Property Name="isWenthday" Type="bit" />
+    <Property Name="isThursday" Type="bit" />
+    <Property Name="isFriday" Type="bit" />
+    <Property Name="isShabbat" Type="bit" />
+    <Property Name="hourstarto" Type="int" />
+    <Property Name="hourendo" Type="int" />
+    <Property Name="conoID" Type="int" />
+    <Property Name="isavliable" Type="bit" />
+  </EntityType>
+  <EntityType Name="days_of_wor">
+    <Key>
+      <PropertyRef Name="iddayw" />
+    </Key>
+    <Property Name="iddayw" Type="int" Nullable="false" />
+    <Property Name="idwor" Type="int" />
+    <Property Name="dayw" Type="nvarchar" MaxLength="255" />
+    <Property Name="hourstartw" Type="int" />
+    <Property Name="hourendw" Type="int" />
+    <Property Name="confid" Type="int" />
+    <Property Name="isavliable" Type="bit" />
+  </EntityType>
+  <EntityType Name="days_of_wor2">
+    <Key>
+      <PropertyRef Name="iddayw" />
+    </Key>
+    <Property Name="iddayw" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="idwor" Type="int" />
+    <Property Name="isSunday" Type="bit" />
+    <Property Name="isManday" Type="bit" />
+    <Property Name="isTuthday" Type="bit" />
+    <Property Name="isWenthday" Type="bit" />
+    <Property Name="isThursday" Type="bit" />
+    <Property Name="isFriday" Type="bit" />
+    <Property Name="isShabbat" Type="bit" />
+    <Property Name="hourstartw" Type="int" />
+    <Property Name="hourendw" Type="int" />
+    <Property Name="confid" Type="int" />
+    <Property Name="isavliable" Type="bit" />
+  </EntityType>
+  <EntityType Name="Foreign_worker">
+    <Key>
+      <PropertyRef Name="idwor" />
+    </Key>
+    <Property Name="idwor" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="lnwor" Type="nvarchar" MaxLength="255" />
+    <Property Name="fnwor" Type="nvarchar" MaxLength="255" />
+    <Property Name="idcity" Type="int" Nullable="false" />
+    <Property Name="confid" Type="int" />
+    <Property Name="ischeck" Type="bit" />
+  </EntityType>
+  <EntityType Name="old">
+    <Key>
+      <PropertyRef Name="idold" />
+    </Key>
+    <Property Name="idold" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="fnameold" Type="nvarchar" MaxLength="255" />
+    <Property Name="lnameold" Type="nvarchar" MaxLength="255" />
+    <Property Name="idcity" Type="int" Nullable="false" />
+    <Property Name="nomhomeold" Type="int" />
+    <Property Name="nationold" Type="varchar" MaxLength="20" />
+    <Property Name="conoID" Type="int" />
+    <Property Name="ischeck" Type="bit" />
+  </EntityType>
+  <EntityType Name="Placement">
+    <Key>
+      <PropertyRef Name="idPlacement" />
+    </Key>
+    <Property Name="idPlacement" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="idold" Type="int" Nullable="false" />
+    <Property Name="idwor" Type="int" Nullable="false" />
+    <Property Name="Start_Datep" Type="date" />
+    <Property Name="end_Datep" Type="date" />
+    <Property Name="nameold" Type="nvarchar" MaxLength="20" />
+    <Property Name="namewor" Type="nvarchar" MaxLength="20" />
+    <Property Name="dayes" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'db.dbo.tbl_Hebrew' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="tbl_Hebrew">
+          <Property Name="name" Type="nvarchar" MaxLength="10" />
+        </EntityType>-->
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'db.dbo.vvv' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="vvv">
+          <Property Name="b" Type="int" />
+        </EntityType>-->
+  <Association Name="FK__Constrain__idcit__25869641">
+    <End Role="city" Type="Self.city" Multiplicity="1" />
+    <End Role="Constraintsforeigenworker" Type="Self.Constraintsforeigenworker" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="city">
+        <PropertyRef Name="idcity" />
+      </Principal>
+      <Dependent Role="Constraintsforeigenworker">
+        <PropertyRef Name="idcity" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Constrain__idcit__31EC6D26">
+    <End Role="city" Type="Self.city" Multiplicity="1" />
+    <End Role="Constraintsold" Type="Self.Constraintsold" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="city">
+        <PropertyRef Name="idcity" />
+      </Principal>
+      <Dependent Role="Constraintsold">
+        <PropertyRef Name="idcity" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Constrain__idday__5DCAEF64">
+    <End Role="days_of_wor" Type="Self.days_of_wor" Multiplicity="1" />
+    <End Role="Constraintsforeigenworkerne" Type="Self.Constraintsforeigenworkerne" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="days_of_wor">
+        <PropertyRef Name="iddayw" />
+      </Principal>
+      <Dependent Role="Constraintsforeigenworkerne">
+        <PropertyRef Name="iddayw" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__day_of_wo__idwor__72C60C4A">
+    <End Role="Foreign_worker" Type="Self.Foreign_worker" Multiplicity="0..1" />
+    <End Role="day_of_wor1" Type="Self.day_of_wor1" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Foreign_worker">
+        <PropertyRef Name="idwor" />
+      </Principal>
+      <Dependent Role="day_of_wor1">
+        <PropertyRef Name="idwor" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__days_of_o__conoI__4222D4EF">
+    <End Role="Constraintsold" Type="Self.Constraintsold" Multiplicity="0..1" />
+    <End Role="days_of_old" Type="Self.days_of_old" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Constraintsold">
+        <PropertyRef Name="conoID" />
+      </Principal>
+      <Dependent Role="days_of_old">
+        <PropertyRef Name="conoID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__days_of_o__conoI__46E78A0C">
+    <End Role="Constraintsold" Type="Self.Constraintsold" Multiplicity="0..1" />
+    <End Role="days_of_old2" Type="Self.days_of_old2" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Constraintsold">
+        <PropertyRef Name="conoID" />
+      </Principal>
+      <Dependent Role="days_of_old2">
+        <PropertyRef Name="conoID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__days_of_o__idold__797309D9">
+    <End Role="old" Type="Self.old" Multiplicity="1" />
+    <End Role="days_of_old" Type="Self.days_of_old" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="old">
+        <PropertyRef Name="idold" />
+      </Principal>
+      <Dependent Role="days_of_old">
+        <PropertyRef Name="idold" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__days_of_o__idold__7A672E12">
+    <End Role="old" Type="Self.old" Multiplicity="0..1" />
+    <End Role="days_of_old2" Type="Self.days_of_old2" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="old">
+        <PropertyRef Name="idold" />
+      </Principal>
+      <Dependent Role="days_of_old2">
+        <PropertyRef Name="idold" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__days_of_w__confi__571DF1D5">
+    <End Role="Constraintsforeigenworker" Type="Self.Constraintsforeigenworker" Multiplicity="0..1" />
+    <End Role="days_of_wor" Type="Self.days_of_wor" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Constraintsforeigenworker">
+        <PropertyRef Name="confid" />
+      </Principal>
+      <Dependent Role="days_of_wor">
+        <PropertyRef Name="confid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__days_of_w__confi__5AEE82B9">
+    <End Role="Constraintsforeigenworker" Type="Self.Constraintsforeigenworker" Multiplicity="0..1" />
+    <End Role="days_of_wor2" Type="Self.days_of_wor2" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Constraintsforeigenworker">
+        <PropertyRef Name="confid" />
+      </Principal>
+      <Dependent Role="days_of_wor2">
+        <PropertyRef Name="confid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__days_of_w__idwor__73BA3083">
+    <End Role="Foreign_worker" Type="Self.Foreign_worker" Multiplicity="0..1" />
+    <End Role="days_of_wor" Type="Self.days_of_wor" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Foreign_worker">
+        <PropertyRef Name="idwor" />
+      </Principal>
+      <Dependent Role="days_of_wor">
+        <PropertyRef Name="idwor" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__days_of_w__idwor__74AE54BC">
+    <End Role="Foreign_worker" Type="Self.Foreign_worker" Multiplicity="0..1" />
+    <End Role="days_of_wor2" Type="Self.days_of_wor2" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Foreign_worker">
+        <PropertyRef Name="idwor" />
+      </Principal>
+      <Dependent Role="days_of_wor2">
+        <PropertyRef Name="idwor" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Foreign_w__confi__6FE99F9F">
+    <End Role="Constraintsforeigenworker" Type="Self.Constraintsforeigenworker" Multiplicity="0..1" />
+    <End Role="Foreign_worker" Type="Self.Foreign_worker" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Constraintsforeigenworker">
+        <PropertyRef Name="confid" />
+      </Principal>
+      <Dependent Role="Foreign_worker">
+        <PropertyRef Name="confid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Foreign_w__idcit__70DDC3D8">
+    <End Role="city" Type="Self.city" Multiplicity="1" />
+    <End Role="Foreign_worker" Type="Self.Foreign_worker" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="city">
+        <PropertyRef Name="idcity" />
+      </Principal>
+      <Dependent Role="Foreign_worker">
+        <PropertyRef Name="idcity" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__old__conoID__778AC167">
+    <End Role="Constraintsold" Type="Self.Constraintsold" Multiplicity="0..1" />
+    <End Role="old" Type="Self.old" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Constraintsold">
+        <PropertyRef Name="conoID" />
+      </Principal>
+      <Dependent Role="old">
+        <PropertyRef Name="conoID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__old__idcity__787EE5A0">
+    <End Role="city" Type="Self.city" Multiplicity="1" />
+    <End Role="old" Type="Self.old" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="city">
+        <PropertyRef Name="idcity" />
+      </Principal>
+      <Dependent Role="old">
+        <PropertyRef Name="idcity" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Placement__idold__7B5B524B">
+    <End Role="old" Type="Self.old" Multiplicity="1" />
+    <End Role="Placement" Type="Self.Placement" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="old">
+        <PropertyRef Name="idold" />
+      </Principal>
+      <Dependent Role="Placement">
+        <PropertyRef Name="idold" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Placement__idwor__71D1E811">
+    <End Role="Foreign_worker" Type="Self.Foreign_worker" Multiplicity="1" />
+    <End Role="Placement" Type="Self.Placement" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Foreign_worker">
+        <PropertyRef Name="idwor" />
+      </Principal>
+      <Dependent Role="Placement">
+        <PropertyRef Name="idwor" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="dbModelStoreContainer">
+    <EntitySet Name="city" EntityType="Self.city" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Constraintsforeigenworker" EntityType="Self.Constraintsforeigenworker" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Constraintsforeigenworkerne" EntityType="Self.Constraintsforeigenworkerne" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Constraintsold" EntityType="Self.Constraintsold" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="day_of_wor1" EntityType="Self.day_of_wor1" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="days_of_old" EntityType="Self.days_of_old" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="days_of_old2" EntityType="Self.days_of_old2" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="days_of_wor" EntityType="Self.days_of_wor" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="days_of_wor2" EntityType="Self.days_of_wor2" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Foreign_worker" EntityType="Self.Foreign_worker" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="old" EntityType="Self.old" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Placement" EntityType="Self.Placement" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__Constrain__idcit__25869641" Association="Self.FK__Constrain__idcit__25869641">
+      <End Role="city" EntitySet="city" />
+      <End Role="Constraintsforeigenworker" EntitySet="Constraintsforeigenworker" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Constrain__idcit__31EC6D26" Association="Self.FK__Constrain__idcit__31EC6D26">
+      <End Role="city" EntitySet="city" />
+      <End Role="Constraintsold" EntitySet="Constraintsold" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Constrain__idday__5DCAEF64" Association="Self.FK__Constrain__idday__5DCAEF64">
+      <End Role="days_of_wor" EntitySet="days_of_wor" />
+      <End Role="Constraintsforeigenworkerne" EntitySet="Constraintsforeigenworkerne" />
+    </AssociationSet>
+    <AssociationSet Name="FK__day_of_wo__idwor__72C60C4A" Association="Self.FK__day_of_wo__idwor__72C60C4A">
+      <End Role="Foreign_worker" EntitySet="Foreign_worker" />
+      <End Role="day_of_wor1" EntitySet="day_of_wor1" />
+    </AssociationSet>
+    <AssociationSet Name="FK__days_of_o__conoI__4222D4EF" Association="Self.FK__days_of_o__conoI__4222D4EF">
+      <End Role="Constraintsold" EntitySet="Constraintsold" />
+      <End Role="days_of_old" EntitySet="days_of_old" />
+    </AssociationSet>
+    <AssociationSet Name="FK__days_of_o__conoI__46E78A0C" Association="Self.FK__days_of_o__conoI__46E78A0C">
+      <End Role="Constraintsold" EntitySet="Constraintsold" />
+      <End Role="days_of_old2" EntitySet="days_of_old2" />
+    </AssociationSet>
+    <AssociationSet Name="FK__days_of_o__idold__797309D9" Association="Self.FK__days_of_o__idold__797309D9">
+      <End Role="old" EntitySet="old" />
+      <End Role="days_of_old" EntitySet="days_of_old" />
+    </AssociationSet>
+    <AssociationSet Name="FK__days_of_o__idold__7A672E12" Association="Self.FK__days_of_o__idold__7A672E12">
+      <End Role="old" EntitySet="old" />
+      <End Role="days_of_old2" EntitySet="days_of_old2" />
+    </AssociationSet>
+    <AssociationSet Name="FK__days_of_w__confi__571DF1D5" Association="Self.FK__days_of_w__confi__571DF1D5">
+      <End Role="Constraintsforeigenworker" EntitySet="Constraintsforeigenworker" />
+      <End Role="days_of_wor" EntitySet="days_of_wor" />
+    </AssociationSet>
+    <AssociationSet Name="FK__days_of_w__confi__5AEE82B9" Association="Self.FK__days_of_w__confi__5AEE82B9">
+      <End Role="Constraintsforeigenworker" EntitySet="Constraintsforeigenworker" />
+      <End Role="days_of_wor2" EntitySet="days_of_wor2" />
+    </AssociationSet>
+    <AssociationSet Name="FK__days_of_w__idwor__73BA3083" Association="Self.FK__days_of_w__idwor__73BA3083">
+      <End Role="Foreign_worker" EntitySet="Foreign_worker" />
+      <End Role="days_of_wor" EntitySet="days_of_wor" />
+    </AssociationSet>
+    <AssociationSet Name="FK__days_of_w__idwor__74AE54BC" Association="Self.FK__days_of_w__idwor__74AE54BC">
+      <End Role="Foreign_worker" EntitySet="Foreign_worker" />
+      <End Role="days_of_wor2" EntitySet="days_of_wor2" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Foreign_w__confi__6FE99F9F" Association="Self.FK__Foreign_w__confi__6FE99F9F">
+      <End Role="Constraintsforeigenworker" EntitySet="Constraintsforeigenworker" />
+      <End Role="Foreign_worker" EntitySet="Foreign_worker" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Foreign_w__idcit__70DDC3D8" Association="Self.FK__Foreign_w__idcit__70DDC3D8">
+      <End Role="city" EntitySet="city" />
+      <End Role="Foreign_worker" EntitySet="Foreign_worker" />
+    </AssociationSet>
+    <AssociationSet Name="FK__old__conoID__778AC167" Association="Self.FK__old__conoID__778AC167">
+      <End Role="Constraintsold" EntitySet="Constraintsold" />
+      <End Role="old" EntitySet="old" />
+    </AssociationSet>
+    <AssociationSet Name="FK__old__idcity__787EE5A0" Association="Self.FK__old__idcity__787EE5A0">
+      <End Role="city" EntitySet="city" />
+      <End Role="old" EntitySet="old" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Placement__idold__7B5B524B" Association="Self.FK__Placement__idold__7B5B524B">
+      <End Role="old" EntitySet="old" />
+      <End Role="Placement" EntitySet="Placement" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Placement__idwor__71D1E811" Association="Self.FK__Placement__idwor__71D1E811">
+      <End Role="Foreign_worker" EntitySet="Foreign_worker" />
+      <End Role="Placement" EntitySet="Placement" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
